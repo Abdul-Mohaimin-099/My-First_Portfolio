@@ -50,6 +50,7 @@ header{
     background-repeat: no-repeat,no-repeat;
     background-position: top left,bottom right;
     padding-top: 50px;
+    margin-bottom: 131px;
 }
 
 nav{
@@ -107,8 +108,10 @@ nav .menu a{
 }
 
 #about .about-content{
-    margin: 130px 231px;
-    width: 1450px;
+    width: 71%;
+    max-width: 1140px; ;
+    margin: 0 auto;
+    
     background-color: #FFF8F3;
     text-align: center;
     padding: 131px 156px;
