@@ -29,7 +29,8 @@
      }
 .resume-btn{
     background-color: #FF5722;
-        margin: 50px 850px;
+    min-width: 200px;
+        margin: 50px 800px;;
         border: none;
         padding: 18px 35px;
         border-radius: 5px;
@@ -60,12 +61,18 @@
     margin-bottom: 30px;
     
 }
+.footer-header {
+        font-size: 35px;
+        font-weight: bold;
+        color: #181818;
+        margin-bottom: 30px;
+}
 
 header{
     background-color: #FFF8F3;
     background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;
     background-repeat: no-repeat,no-repeat;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
     padding-top: 50px;
     margin-bottom: 131px;
 }
@@ -247,4 +254,49 @@ nav .menu a{
 
 .resume-info hr{
     min-width: 558px;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 30px 0;
+    margin-top: 131px;
+}
+
+.footer-content {
+    width:71%;
+    max-width: 1140px;
+    margin: 130px auto;
+    display: flex;
+    gap:117px;
+}
+
+.footer-content .social p{
+    font-size: 18px;
+    max-width: 562px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+    
+}
+.social .icons {
+    display: flex;
+    gap: 24px;
+   
+}
+
+.social .icons img {
+    max-width: 24px;
+}
+
+.footer-content .form input[type="text"],
+.footer-content .form input[type="email"],
+.footer-content .form textarea {
+    min-width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    
+    color:#757575;
+    
 }
